@@ -2,7 +2,7 @@ machine:
   timezone:
     Europe/Paris
   node:
-    version: $CURRENT_NODE_VERSION
+    version: 8.9.4
 
 test:
   pre:
