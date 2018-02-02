@@ -65,7 +65,6 @@
     "lint-tests": "jshint test/",
     "coverage": "nyc -r lcov -r text mocha --check-leaks --require test/bootstrap/node 'test/**/*.test.js'",
     "view-coverage": "open coverage/lcov-report/index.html",
-    "send-coverage": "cat coverage/lcov.info | ./node_modules/.bin/codeclimate",
     "clean": "rm -rf build; rm -rf coverage; rm -rf node_modules"
   }
 }
