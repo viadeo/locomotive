@@ -10,8 +10,6 @@ test:
     - npm run lint-tests
   override:
     - npm run coverage
-  post:
-    - npm run send-coverage
 
 general:
   artifacts:
