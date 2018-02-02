@@ -1,5 +1,3 @@
-reports/
-
 # Node.js
 node_modules/
 npm-debug.log
@@ -12,4 +10,6 @@ npm-debug.log
 *.sublime-project
 *.sublime-workspace
 
+coverage/
+.nyc_output/
 package-lock.json
